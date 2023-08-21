@@ -1,5 +1,5 @@
 public class Game {
     public Game() {
-        new GameWindow();
+        new GameWindow(new GamePanel());
     }
 }
