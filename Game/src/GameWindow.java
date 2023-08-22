@@ -5,6 +5,7 @@ public class GameWindow extends JFrame{
         setSize(800, 600);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         add(gamePanel);
+        setLocationRelativeTo(null);
         setVisible(true);
     }
 }

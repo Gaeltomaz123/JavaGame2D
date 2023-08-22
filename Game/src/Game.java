@@ -1,5 +1,10 @@
 public class Game {
+    private GamePanel gPanel;
+    private GameWindow gWindow;
+    
     public Game() {
-        new GameWindow(new GamePanel());
+        gPanel = new GamePanel();
+        gWindow = new GameWindow(gPanel);
+        gPanel.requestFocus();
     }
 }
