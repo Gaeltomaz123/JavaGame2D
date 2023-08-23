@@ -18,13 +18,13 @@ public class Mouse implements MouseListener, MouseMotionListener{
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        gamePanel.changePos(e.getX(), e.getY());
-        System.out.println("Moved");
+       // gamePanel.changePos(e.getX(), e.getY());
+       // System.out.println("Moved");
     }
 
     @Override
     public void mouseClicked(MouseEvent e) {
-        System.out.println("POW");
+       // System.out.println("POW");
     }
 
     @Override
